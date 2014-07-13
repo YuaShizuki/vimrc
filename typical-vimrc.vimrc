@@ -6,6 +6,7 @@ set ruler
 set cursorline
 set foldmethod=indent
 set foldlevelstart=20
+
 hi MatchParen ctermfg=195 ctermbg=235
 hi TabLineFill ctermbg=235
 hi Normal ctermfg=247 ctermbg=233
@@ -13,8 +14,8 @@ hi Folded ctermbg=235 ctermfg=240
 hi CursorLine cterm=None ctermbg=235
 hi LineNr ctermfg=237
 
-
 hi Integer  ctermfg=247 ctermbg=233
+hi Boolean ctermfg=247 ctermbg=233
 hi Number  ctermfg=247 ctermbg=233
 hi Float ctermfg=247 ctermbg=233
 hi Character ctermfg=247 ctermbg=233
